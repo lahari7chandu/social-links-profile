@@ -1,0 +1,127 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7.375rem;
+  padding-bottom: 7.375rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 20.625rem;
+  min-height: 36.125rem;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 12%);
+}
+@media screen and (min-width: 375p) {
+  .card {
+    width: 23.562rem;
+    height: 38.25rem;
+  }
+}
+.card img {
+  border-radius: 50%;
+  width: 5.5rem;
+  height: 5.5rem;
+  margin-top: 1.4375rem;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  margin-bottom: 1.125rem;
+}
+
+.descrip {
+  color: hsl(75, 94%, 57%);
+  font-size: 0.875rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  margin-bottom: 1.9375rem;
+}
+.text {
+  color: hsl(0, 6%, 77%);
+  font-size: 0.875rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  margin-bottom: 1.62rem;
+}
+.profiles a {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+}
+.socials:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
+.github {
+  width: 14.25rem;
+  height: 2.8rem;
+  background-color: hsl(0, 0%, 20%);
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  color: hsl(0, 0%, 100%);
+  font-size: 0.875rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+.mentor {
+  width: 14.25rem;
+  height: 2.8rem;
+  background-color: hsl(0, 0%, 20%);
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  color: hsl(0, 0%, 100%);
+  font-size: 0.875rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+.linkedin {
+  width: 14.25rem;
+  height: 2.8rem;
+  background-color: hsl(0, 0%, 20%);
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  color: hsl(0, 0%, 100%);
+  font-size: 0.875rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+.twitter {
+  width: 14.25rem;
+  height: 2.8rem;
+  background-color: hsl(0, 0%, 20%);
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  color: hsl(0, 0%, 100%);
+  font-size: 0.875rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+.insta {
+  width: 14.25rem;
+  height: 2.8rem;
+  background-color: hsl(0, 0%, 20%);
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  color: hsl(0, 0%, 100%);
+  font-size: 0.875rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
